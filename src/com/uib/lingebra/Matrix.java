@@ -1,5 +1,6 @@
 package com.uib.lingebra;
 
+import java.util.Arrays;
 
 public class Matrix<T> {
 	private T[][]entries;
@@ -77,4 +78,7 @@ public class Matrix<T> {
     	}
     }
 	
+    public void transpose() {
+    	
+    }
 }
