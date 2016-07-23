@@ -1,7 +1,10 @@
 package com.uib.matrices;
 
-public abstract class Matrix {
-	public abstract int getM();
-	public abstract int getN();	
+public class Matrix<T> {
+	private T[][] entries;
+
+	public void set(T[][] entries) { this.entries = entries; }
+    public T[][] get() { return entries; }
+	
 	
 }
