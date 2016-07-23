@@ -80,7 +80,7 @@ public class Matrix<T> {
 	
 	/**
 	 * Matrix transposition
-	 * /
+	 */
     public void transpose() {
     	
     }
