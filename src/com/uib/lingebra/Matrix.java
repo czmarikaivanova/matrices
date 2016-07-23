@@ -79,7 +79,7 @@ public class Matrix<T> {
     }
 	
 	/**
-	 * Matrix transposition
+	 * fuck
 	 */
     public void transpose() {
     	
