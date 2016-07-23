@@ -77,7 +77,10 @@ public class Matrix<T> {
     		}
     	}
     }
-	
+
+/**
+ * standard transposition of a matrix
+ */
     public void transpose() {
     	
     }
