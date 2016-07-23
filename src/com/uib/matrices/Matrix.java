@@ -31,6 +31,13 @@ public class Matrix<T> {
     public T[][] get() { 
     	return entries; 
 	}
-	
+
+    public void reset() {
+    	for (int i = 0; i < entries.length; i++) {
+    		for (int j = 0; j < entries[i].length; j++) {
+    			entries[i][j] = null;
+    		}
+    	}
+    }
 	
 }
